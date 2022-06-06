@@ -23,7 +23,7 @@ public class Driver {
     public static WebDriver getDriver(){
         if(driver == null){
             // Telling your system where your chrome driver is located
-            //System.setProperty("webdriver.chrome.driver", "/Users/techglobal/IdeaProjects/selenium_intro/chromedriver");
+            //System.setProperty("webdriver.chrome.driver", "path");
 
             String browser = "chrome"; // define which browser you will run your test in
 

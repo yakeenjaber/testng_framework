@@ -16,4 +16,7 @@ public class GoogleSearchPage {
 
     @FindBy(linkText = "Store")
     public WebElement storeLink;
+
+    @FindBy(xpath = "//*[@name = 'btnK']")
+    public WebElement googleSearchButton;
 }
